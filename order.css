@@ -1,0 +1,51 @@
+
+	.form{
+		position: relative;
+		top: 20px;
+		width: 70%;
+		height: 80vh;
+		  box-shadow: 0 4px 4px 4px rgba(0,0,0,0.3);
+		  border-radius: 10px;
+	}
+input{
+	width: 90%;
+	height: 5vh;
+	margin-bottom: 2rem;
+	background-color: lightgray;
+	border:none;
+	border-radius: 10px;
+}
+button{
+	width: 50%;
+	height: 5vh;
+	background-color: #00FF00;
+	color: white;
+	border-radius: 10px;
+	border:none;
+	transition: 0.1s ease;
+}
+button:hover{
+	transform: scale(1.1);
+}
+select{
+	border:none;
+	font-size: 15px;
+	color: orange;
+}
+
+.display{
+		position: relative;
+		top: 20px;
+		width: 70%;
+		height: 60vh;
+		  box-shadow: 0 4px 4px 4px rgba(0,0,0,0.3);
+		  overflow: auto;
+		  border-radius: 10px;
+	}
+
+	td{
+		width: 10%;
+		height: 3vh;
+		color: white
+		background-color:green;
+	}
